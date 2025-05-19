@@ -1,0 +1,10 @@
+^C:\USERS\ULTIM\DESKTOP\PROJECTS\MESHGRID\BUILD\CMAKEFILES\448411D4DCE348055BF6113A6743DA3B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ultim/Desktop/projects/Meshgrid -BC:/Users/ultim/Desktop/projects/Meshgrid/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ultim/Desktop/projects/Meshgrid/build/Meshgrid.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
