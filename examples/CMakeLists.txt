@@ -1,0 +1,2 @@
+add_executable(hello_meshgrid hello_world.cpp)
+target_link_libraries(hello_meshgrid PRIVATE meshgrid)
