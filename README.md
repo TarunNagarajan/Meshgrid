@@ -1,5 +1,7 @@
 # Meshgrid: 100-Day Build Plan
 
+Meshgrid is a lightweight, scalable software framework implementing a Message-Passing Tile Grid (NoC-inspired) system. It facilitates efficient inter-tile communication via message passing, enabling research and development of distributed, parallel computing architectures on low-power embedded platforms.
+
 | Day | Build Task | Learning Objective |
 |-----|------------|--------------------------------------|
 | 1 | Set up repo, create project structure | Learn how to design a modular C++ project: `src/`, `include/`, `tests/`, `examples/`. Deeply understand why separation of concerns matters in large system design. |
